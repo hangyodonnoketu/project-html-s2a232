@@ -1,0 +1,39 @@
+<!-- 作成日：2024/05/16-->
+<!--作成者：薮谷賢信-->
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <title>transitionを使ったアニメーション</title>
+    <style type = "text/css">
+      div{
+        width: 100px;
+        height: 100px;
+        padding: 1em;
+        margin: 2em 2em 4em;
+        background: #ad4444;
+        color: #fff;
+        font-size: 14px;
+      }
+
+      .width{transition:  width 0.3s ease-out;}
+      .width:hover{ width:400px;}
+
+      .circle{transition: border-radius 0.2s;}
+      .circle:hover {border-radius: 50%;}
+
+      .scale { transition: transform 0.5s ease-in-out 1s;}
+      .scale:hover {transform:scale(1.5);}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>キーフレームアニメーション</h1>
+    <p>サンプル１</p>
+    <div class="sample1">ジグザグに動く</div>
+
+  </body>
+</html>

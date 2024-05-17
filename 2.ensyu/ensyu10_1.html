@@ -1,0 +1,33 @@
+<!-- 作成日：2024/05/16-->
+<!--作成者：薮谷賢信-->
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <title>疑似要素の練習</title>
+    <style type = "text/css">
+      h3::bwefore{
+        content:"★"
+      }
+      a::after{
+        content: url(arrow.png);
+      }
+      p.letter::first-letter{
+        font-size: 2em;
+      }
+      p.line::first-line{
+        color:#f0f;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>タイトルの矢印に星マークを追加</h3>
+    <a herf ="#"*>語尾に矢印の画像を追加</a>
+    <p class ="letter">
+      日本では、正月に負え地やお雑煮を食べる文化があります。お雑煮は地域によって具材や味付けが様々です。
+    </p>
+    <p class ="line">
+      このように１文字目だけ、また１行目だけスタイルを変えることによって、読みやすくなります。長文が続く時のアクセントにもなります。
+    </p>
+  </body>
+</html>

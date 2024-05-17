@@ -1,0 +1,16 @@
+table{
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+th{
+  text-align: left;
+  padding: 10px;
+  border-style: solid;
+  background-color: #f0f0f0;
+}
+
+td{
+  padding: 10px;
+  border-style: solid;
+}
